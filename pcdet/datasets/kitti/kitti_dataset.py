@@ -389,11 +389,19 @@ class KittiDataset(DatasetTemplate):
 
 
 ###############################
-        calib = data_dict['calib']
+
         projected = calib.lidar_to_rect(data_dict['points'][:, :3])
         projected, _= calib.rect_to_img(projected)
+        projected = np.round(projected)
 
         img = self.get_image(sample_idx)
+
+        fix1 = np.where(projected[:, 1] >= img.shape[0])
+        projected[fix1][1] = img.shape[0] - 1
+
+        fix2 = np.where(projected[:,0] >= img.shape[1])
+        projected[fix2][0] = img.shape[1] - 1
+
         rgb_value = img[np.int32(projected[:,1]), np.int32(projected[:, 0])]
 
         data_dict['points'] = np.append(data_dict['points'], rgb_value, axis=1)
