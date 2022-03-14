@@ -1,0 +1,1 @@
+/home/frogbam/datasets/kitti/kitti_infos_train.pkl
