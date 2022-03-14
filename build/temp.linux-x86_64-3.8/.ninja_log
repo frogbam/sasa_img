@@ -1,0 +1,27 @@
+# ninja log v5
+1	1187	1647251677716539206	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/iou3d_nms/src/iou3d_nms_kernel.o	f9a3b87291cc33c0
+0	11281	1647251687808243322	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/iou3d_nms/src/iou3d_cpu.o	90fa36eec9894618
+1	11380	1647251687908240386	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/iou3d_nms/src/iou3d_nms.o	8baad1e6a2c85797
+1	15651	1647251692176114980	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/iou3d_nms/src/iou3d_nms_api.o	592c1130eddb70f4
+0	542	1647251693056089104	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/roiaware_pool3d/src/roiaware_pool3d_kernel.o	172f7aaba07ea9a3
+0	14178	1647251706691687279	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/roiaware_pool3d/src/roiaware_pool3d.o	360629229b76cfac
+0	420	1647251707415665900	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/roipoint_pool3d/src/roipoint_pool3d_kernel.o	f1c8ea9beb9679b4
+0	13913	1647251720907266687	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/roipoint_pool3d/src/roipoint_pool3d.o	643ccb500da2f784
+0	9550	1647251730758974228	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_stack/src/group_points.o	d3a98c7c59b1d382
+1	10057	1647251731266959127	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_stack/src/interpolate.o	390e7e803e538f0f
+1	10631	1647251731842942001	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_stack/src/sampling.o	cd7c09b322ed26b8
+0	10635	1647251731846941883	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_stack/src/ball_query.o	e81e963edc71b864
+1	18403	1647251739610710785	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_stack/src/group_points_gpu.o	ce3d008c64b71fa4
+0	18604	1647251739810704827	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_stack/src/ball_query_gpu.o	18e0fd21502d230a
+1	19666	1647251740874673117	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_stack/src/interpolate_gpu.o	ee91c9ef3765ccbe
+1	19842	1647251741050667872	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_stack/src/sampling_gpu.o	83f09469dbe20cb4
+0	20203	1647251741410657139	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_stack/src/pointnet2_api.o	a40cdd01bcb3fea5
+1	7949	1647251749714409322	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_batch/src/interpolate.o	105969da810eeaec
+1	8598	1647251750362389961	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_batch/src/group_points.o	621f3407b457eb04
+1	10213	1647251751978341665	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_batch/src/sampling.o	a1be8371e3e45e1e
+0	10468	1647251752234334011	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_batch/src/ball_query.o	c9bd2c46b1835ea7
+1	18080	1647251759842106345	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_batch/src/group_points_gpu.o	7ece8bf17ce06124
+1	19045	1647251760806077466	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_batch/src/interpolate_gpu.o	1f640ce0ee8fda43
+0	19891	1647251761654052055	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_batch/src/ball_query_gpu.o	2d1f695d45af88da
+2	20097	1647251761858045942	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_batch/src/sampling_gpu.o	b9b6a5b692a98269
+0	22800	1647251764561964878	/home/frogbam/models/sasa/SASA/build/temp.linux-x86_64-3.8/pcdet/ops/pointnet2/pointnet2_batch/src/pointnet2_api.o	d3e68e57bd00be16
